@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "ai chat",
+      "invocationName": "clever chatbot",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",

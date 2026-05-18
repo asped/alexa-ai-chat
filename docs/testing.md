@@ -8,8 +8,8 @@
 
 ## Alexa Simulator
 
-- `open ai chat` returns the welcome prompt.
-- `ask ai chat what is the tallest mountain` returns an AI answer.
+- `open clever chatbot` returns the welcome prompt.
+- `ask clever chatbot what is the tallest mountain` returns an AI answer.
 - A follow-up question in the same session uses recent context.
 - `help` explains the phrasing.
 - `stop` ends the session.
@@ -19,7 +19,7 @@
 - Device or Alexa app is signed into the same Amazon account as the Developer Console.
 - Skill testing is enabled in the Developer Console.
 - Local server and HTTPS tunnel are both running.
-- `Alexa, open ai chat` launches the skill.
+- `Alexa, open clever chatbot` launches the skill.
 - `ask what is the tallest mountain` gets an answer.
 - `ask how high is it` works as a context-aware follow-up.
 - `stop` ends cleanly.

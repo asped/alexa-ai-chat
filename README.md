@@ -119,7 +119,7 @@ https://YOUR-TUNNEL-DOMAIN/alexa
 2. Create a new skill.
 3. Choose **Custom** model.
 4. Choose **Provision your own** backend resources.
-5. Use invocation name: `ai chat`.
+5. Use invocation name: `clever chatbot`.
 6. Open **Interaction Model > JSON Editor**.
 7. Paste the contents of `skill-package/interactionModels/custom/en-US.json`.
 8. Save and build the model.
@@ -134,8 +134,8 @@ https://YOUR-TUNNEL-DOMAIN/alexa
 In the Alexa Developer Console test tab, enable testing and try:
 
 ```txt
-open ai chat
-ask ai chat what is the tallest mountain
+open clever chatbot
+ask clever chatbot what is the tallest mountain
 ask why is the sky blue
 stop
 ```
@@ -149,7 +149,7 @@ Use an Echo device or the Alexa mobile app signed into the same Amazon account u
 1. Keep `pnpm dev` running.
 2. Keep the HTTPS tunnel running.
 3. Make sure the skill is enabled for testing in the Developer Console.
-4. Say: `Alexa, open ai chat`.
+4. Say: `Alexa, open clever chatbot`.
 5. Say: `ask what is the tallest mountain`.
 6. Ask a follow-up in the same session, such as: `ask how high is it`.
 7. Say: `stop`.
