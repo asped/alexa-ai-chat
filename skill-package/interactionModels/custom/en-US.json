@@ -1,0 +1,48 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ai chat",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "ChatIntent",
+          "slots": [
+            {
+              "name": "Query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "ask {Query}",
+            "answer {Query}",
+            "tell me {Query}",
+            "chat about {Query}",
+            "explain {Query}",
+            "please explain {Query}",
+            "what is {Query}",
+            "who is {Query}",
+            "why is {Query}",
+            "how does {Query}",
+            "help me with {Query}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
